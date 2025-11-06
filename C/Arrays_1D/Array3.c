@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define CONST 10
+
 int main() {
     int ascend[CONST];
 
@@ -18,7 +19,7 @@ int main() {
             i = 0; 
         }
     }
-        printf("Second Largest %d ", ascend[CONST - 2]);
+        printf("Second Largest: %d ", ascend[CONST - 2]);
         
     printf("\n");
     return 0;
