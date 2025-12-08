@@ -4,20 +4,20 @@
 
 int main() {
 
-    int names[CONST];
+    int nums[CONST];
     int sum;
 
     for (int i = 0; i < CONST; i++) {
         printf("Enter num %d: ", i + 1);
-        scanf("%d", &names[i]);
-        sum += names[i];
+        scanf("%d", &nums[i]);
+        sum += nums[i];
     }    
     printf("\n");
     for (int i = 0; i < CONST; i++) {
-        printf("%d ", names[i]);
+        printf("%d ", nums[i]);
     }
 
-    printf("Sum: %d\n", sum);
+    printf("\nSum: %d\n", sum);
 
     return 0;
 }

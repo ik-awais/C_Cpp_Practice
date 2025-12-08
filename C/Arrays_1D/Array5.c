@@ -2,14 +2,9 @@
 #include <stdio.h>
 #define CONST 10
 int main() {
-    int arr1[CONST];
-    int arr2[CONST];
+    int arr1[CONST] = {0};
+    int arr2[CONST] = {0};
 
-    for (int i = 0; i < CONST; i++)
-    {
-        arr1[i] = 0;
-        arr2[i] = 0;
-    }
     for (int i = 0; i < CONST; i++) 
     {
         printf("Enter num %d: ", i + 1);

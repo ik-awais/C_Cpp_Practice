@@ -5,16 +5,9 @@
 #define CONST 10
 
 int main() {
-    int arr_ID[CONST];
-    double arr_gp[CONST];
+    int arr_ID[CONST] = {0};
+    double arr_gp[CONST] = {0.0};
     int ID;
-
-    //Array Initialization
-    for (int i = 0; i < CONST; i++) 
-    {
-        arr_ID[i] = 0;
-        arr_gp[i] = 0.0;
-    }
     //ID & Gross Pay input
     for (int i = 0; i < CONST; i++)
     {
