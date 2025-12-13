@@ -1,5 +1,5 @@
 // Find length of string with pointers
-// Excluding null character.
+// including null character.
 #include <stdio.h>
 int main(){
     char string[] = "Awais";
