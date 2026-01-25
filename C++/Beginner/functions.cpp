@@ -6,7 +6,7 @@ void findFactors(int num);
 int findGCD(int num, int num2);
 
 int main(){
-    int num = 24, num2 = 20;
+    int num = 5, num2 = 20;
     string lcm = "LCM is:";
     findFactors(num);
     findFactors(num2);
