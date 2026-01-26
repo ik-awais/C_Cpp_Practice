@@ -8,8 +8,12 @@ using namespace std;
 int findMax(int num, int num2);
 
 int main(){
-    int *ptr1 = new int;
-    int *ptr2 = new int;
+    int *ptr1 = new(nothrow) int;
+    int *ptr2 = new(nothrow) int;
+    if (!ptr1 || !ptr2)
+    {
+        cout << "Memory Allocation Failed" << endl;
+    }
     *ptr1 = 10, *ptr2 = 15;
     cout << findMax(*ptr1, *ptr2) << endl;
     return 0;
